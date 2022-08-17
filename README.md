@@ -12,11 +12,17 @@
   the only metric that need consideration is the total gross of each movie.
   
 ### Question 1
-First question that I would like to answer is : What kind of movies do we make? 
+First question that I would like to answer is : What kind of movies do we want to make? 
 This can be also be extrapolated into other questions like : What are audience's taste's like? Are there any genres that are more successful than others? How many different genres are there? etc. 
 
-THe `movie_basics` table, from the `im.db` dataset lists the movie titles with the different genres. I combined it with the `bm.gross.movie.csv` data to get data of the top 10 genres that generated the most revenue. Now, I can pinpoint to a particular genres and say : 'This is the genres that generated the most money and so, these are the kind of movies you should be making'
+#### Answer Methodology
+The `movie_basics` table, from the `im.db` dataset lists the movie titles with the different genres. I combined it with the `bm.gross.movie.csv` data to get data of the top 10 genres that generated the most revenue. Now, I can pinpoint to a particular genres and say : 'This is the genres that generated the most money and so, these are the kind of movies you should be making'
 
 ### Question 2
 Second question that needs answering is: Which is the largest market for movies?
-Any business 
+Part of any business viability plan is gauging market demand. This is done to get an idea about where the demand for the product is the highest to give the business the biggest chance of success. Similarly, Microdoft Studios will also be looking at releasing movies into the largest markets where demand is highest and be best positioned to be successful.
+
+#### Answer Methodology
+The `bom.movie_gross.csv` lists the gross amounts of each movie in the dometic and foreign market. I calculated the `total_gross` as the sum of these to values to see how much revenue each movie has generated. Then, by using the `.groupby()`,I grouped the data based on the `region` to display the total_gross amounts of each region 
+
+
