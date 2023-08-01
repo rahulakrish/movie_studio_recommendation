@@ -1,4 +1,4 @@
-# Movie Studio startup recommendation
+# Movie Studio startup
 This notebook sets out to demonstrate some of the typical data wrangling steps one might undertake in a data science project as well some Pandas and Matplotlib functionality.
 By taking up a business case of recommending movies to produce to a new studio, we will see how a dataset processed before conducting an analysis. We will also how web scraping can be useful in the absence of
 good quality data.
