@@ -10,17 +10,18 @@ Data was sourced from [Opus Data](https://www.opusdata.com/), the gorup responsi
 To keep things simple, the analysis is focused solely on revenue generated and thereby maximum profitability.
 
 ## EDA
-Following were the conculsions form the intial EDA:
 
-1. Data spanned the years 2006-2018:
-![image](https://github.com/rahulakrish/movie_studio_recommendation/assets/108379254/0a259f4b-173a-45ae-bbd2-93bf89adb013)
+We can see that the data ranges from 2006-2018.
 
-2. Drama was the most popular genre that was produced:
-![image](https://github.com/rahulakrish/movie_studio_recommendation/assets/108379254/9917e7df-0fcd-4108-a215-4c577052e5b7)
+![y](https://github.com/rahulakrish/movie_studio_startup/assets/108379254/0b14ae07-8fcc-4d64-bce9-bee3ff75dff1)
 
-3. Median budget was approx. $50 million. Outlier was movie(s) with $400 million!
-![image](https://github.com/rahulakrish/movie_studio_recommendation/assets/108379254/125dd908-320d-400a-a77f-75cda1ee0161)
+Look like *Drama* ranks the highest amongst movies produced, while *Action,Adventure & Comedy*, though lesser than *Drama* are all almost equally represented.
 
+![g](https://github.com/rahulakrish/movie_studio_startup/assets/108379254/a8b734f4-345f-421a-a2cf-927b5612a98f)
+
+We can see that there were movies produced with some eye-watering numbers i.e. excess of *400 million USD*. Median budget is approx. *40 million USD* while the least budget is approx. less than *5 million USD*. 
+
+![b](https://github.com/rahulakrish/movie_studio_startup/assets/108379254/d7851aee-aa22-4208-9fd1-3696a471426e)
 
 ## Revenue
 Revenue was analyzed based on genres and ratings. Following were the conclusions:
